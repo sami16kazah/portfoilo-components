@@ -4,7 +4,6 @@ const config: Config = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./section/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
@@ -37,7 +36,7 @@ const config: Config = {
         border: "rgb(255 255 255 / 0.05)",
       },
       backgroundImage: {
-        grain: "url(/assets/images/noisy-background.png)",
+        grain: "url(/assets/images/background/noisy-background.png)",
       },
       animation: {
         "noisy-bg": "noise 1s steps(2) infinite",
